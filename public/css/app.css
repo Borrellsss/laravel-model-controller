@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  margin-block: 2rem;
+  text-align: center;
+}
+
+.container {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
+
+.card {
+  padding: 0.5rem;
+  width: calc(20% - 1rem);
+  text-align: center;
+  border: 1px solid lightgray;
+}
+
